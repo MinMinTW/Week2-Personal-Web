@@ -98,6 +98,7 @@ body, a, button{
 .nav_list{
     margin: 40px 0 24px 0;
     width: 306px;
+    color: var(--text-color-white);
 }
 .text_align_r{
     text-align: right;
@@ -139,6 +140,8 @@ body, a, button{
 }
 .header_btn:hover, .project_btn:hover{
     cursor: pointer;
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+
 }
 .intro{
     background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
